@@ -3,9 +3,68 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
   <title>Portifolio</title>
 </head>
 <body>
-  <h1>Hello world !!</h1>
+  <header>
+    <nav>
+      <p class="destaque">Matheus Leal<span class="ponto"></span></p>
+      <ul>
+        <li><a class="destaque" href="#home">Home</a></li>
+        <li><a class="destaque" href="#about">About</a></li>
+        <li><a class="destaque" href="#">Work</a></li>
+        <li><a class="destaque" href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="home">
+      <div>
+        <p>Olá, me chamo Matheus Leal, sou <span class="destaque">software quality assurance engineer</span> e <span class="destaque">desenvolvedor<br>front-end</span>. Combinando qualidade e design para criar soluções eficazes<span class="ponto"></span></p>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <div>
+        <h1 class="destaque">
+          Um pouco sobre min
+        </h1>
+        <p>
+          Sou um <span class="destaque">engenheiro de QA com foco em automação de testes</span> e apaixonado por desenvolvimento Front. <span class="destaque">Minha expertise inclui programar e desenvolver scripts para automação de testes</span>, o que garante a qualidade e eficiência dos processos de testes. <span class="destaque">Fora do trabalho, gosto de frequentar academia, jogar online com amigos, entre outras atividades</span><span class="ponto"></span>
+        </p>
+      </div>
+
+      <div class="container_img_about">
+        <div>
+          <img src="./assets/Robot-framework-logo.png" alt="Robot framework Logo">
+        </div>
+        <div>
+          <img src="./assets/robot-framework-logo.png" alt="Robot framework Logo">
+          <img src="./assets/image-2.png" alt="Robot framework Logo">
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <h1 class="destaque">Entrar em contato<span class="ponto"></span></h1>
+      <p>Para que possamos falar mais sobre...</p>
+      <div>
+        <img src="/assets/email.png" alt="">
+        <img src="/assets/github.png" alt="">
+        <img src="/assets/linkedin.png" alt="">
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>Made in 🇧🇷 by <span class="destaque">Matheus Leal</span></p>
+
+  </footer>
 </body>
 </html>
